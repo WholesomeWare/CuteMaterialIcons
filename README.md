@@ -18,12 +18,14 @@ Icons must follow a few specifications:
 - image size: `48x48`
 - icon size in the image: `40x40`
 - black icon on transparent background
+- icons must have 2 variants: `filled` and `outlined`
 
 If you finished an icon, make a pull request or send them to the [owner of this repository](https;//github.com/CsakiTheOne). If you send your icons directly to me, please name it beforehand as shown below:
 
-Path to an icon should be: `/icons/ic_<icon_name>/ic_<icon_name>_<size>.png`
+Path to an icon should be: `/icons/ic_<icon_name>/ic_<icon_name>_<size>(_<variant>).png`
 
-For example if you remade the icon `More Vert`: `/idons/ic_more_vert/ic_more_vert_48.png`
+For example if you remade the icon `More Vert`: `/icons/ic_more_vert/ic_more_vert_48.png`
+Another example if you remade `Favorite`: `/icons/ic_favorite/ic_favorite_48_filled.png`
 
 ### Drawing icons on paper
 
